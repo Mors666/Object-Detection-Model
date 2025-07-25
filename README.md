@@ -1,32 +1,42 @@
-# 🎯 Real-Time Object Detection App
+# 🧠 Real-Time Object Detection Model
 
-This is a **real-time object detection web application** built with **React.js** and **TensorFlow.js**. It uses the pre-trained **COCO-SSD model** to detect objects from your webcam feed in real-time and displays bounding boxes around them.
-
-🚀 Get your browser to identify everyday objects in just a few milliseconds!
-
----
-
-## ✨ Features
-
-- 📸 Accesses your **webcam** for live video feed.
-- 🧠 Detects **80+ common objects** (person, dog, car, etc.) using the COCO-SSD model.
-- ⚡ Displays detection results in real-time with bounding boxes and labels.
-- 🎨 Customizable detection styling for bounding boxes and labels.
-- 🌐 Fully browser-based – **no backend required**.
+![React](https://img.shields.io/badge/Frontend-React-blue?logo=react)
+![TensorFlow.js](https://img.shields.io/badge/AI-TensorFlow.js-orange?logo=tensorflow)
+![JavaScript](https://img.shields.io/badge/Language-JavaScript-yellow?logo=javascript)
 
 ---
 
-## 🖥️ Demo
+## 📌 Project Overview
 
-![Object Detection Example](https://github.com/Shadow-Crypt-9500/react-tensorflow-object-detection/blob/main/public/ObjectDetectionAppGIF.gif?raw=true)
+This project is a **real-time object detection web application** built using **React.js** and **TensorFlow.js**, powered by the **COCO-SSD** pre-trained model. It allows your browser to access the webcam and detect multiple common objects live — all within the browser, without any server or cloud dependency.
+
+Perfect for learning computer vision fundamentals, TensorFlow.js usage, or building your own browser-based ML tools.
+
+---
+
+## 📸 Live Preview
+
+Here’s what the app looks like while detecting objects:
+
+![Preview](https://github.com/Mors666/Object-Detection-Model/blob/main/public/ObjectDetectionAppGIF.gif?raw=true)
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 Features
 
-- **Frontend**: React.js
-- **Machine Learning**: TensorFlow.js
-- **Model**: Pre-trained COCO-SSD
-- **Other Tools**: Webpack, Babel
+- 🎯 Detect objects in real-time using webcam
+- 🧠 Uses TensorFlow.js and COCO-SSD (client-side inference)
+- 💡 Simple, modular React component structure
+- ⚡ Fast setup and responsive UI
+- 🔒 No backend or external API dependency
 
 ---
+
+## 🛠️ Getting Started
+
+```bash
+
+git clone https://github.com/ShadowCrypt-9500/Object-Detection-Model.git
+cd Object-Detection-Model
+npm install
+npm start
