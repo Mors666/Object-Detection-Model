@@ -36,7 +36,7 @@ Here’s what the app looks like while detecting objects:
 
 ```bash
 
-git clone https://github.com/ShadowCrypt-9500/Object-Detection-Model.git
+git clone https://github.com/Mors666/Object-Detection-Model.git
 cd Object-Detection-Model
 npm install
 npm start
